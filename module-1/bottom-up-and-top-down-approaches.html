@@ -1,30 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-        window.MathJax = {
-            options: { enableMenu: false }
-        };
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/style.css"/>
+    <title>Bottom-up and Top-down Approaches · Nanomaterial Synthesis · Nano Library</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="https://nano-library.github.io/web-styling/favicon.png">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/progress.js"></script>
+	<link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/colors.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/topic.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/navigation.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/progress.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/divider.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/card.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/image.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/list.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/formula.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/table.css">
 </head>
 <body>
-    <div id="navigation">
-        <nav class="concept-nav" aria-label="Concept navigation">
-            <a class="nav-btn prev" href="" rel="prev">\(\leftarrow\) </a>
-            <a class="nav-btn home" href="../index.html">Contents</a>
-            <a class="nav-btn next" href="" rel="next"> \(\rightarrow\)</a>
-        </nav>
-    </div>
-    <div id="title">
-        <h2>Content for this section will be updated soon</h2>
-        <hr>
-    </div>
-    <div id="chapter">
-    </div>
+    <a class="nav-button nav-prev">
+        <span class="button-icon"><</span>
+        <span class="button-label">prev</span>
+    </a>
+
+    <a class="nav-button nav-list">
+    <span class="button-label">contents</span>
+    </a>
+
+    <a class="nav-button nav-next">
+        <span class="button-icon">></span>
+        <span class="button-label">next</span>
+    </a>
+
+    <main data-topic="4" data-list="../index.html">
+
+         <div class="page-header">
+            <div class="topic-chip"></div>
+            <h1></h1>
+            <p class="page-meta"></p>
+            <div class="progress-bar-wrap">
+            <div class="progress-label">
+                <span class="topic-count">loading…</span>
+                <span class="pct-count"></span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="progress-label" style="margin-top:10px;">
+                <span class="chapter-count">loading…</span>
+                <span class="chapter-pct"></span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill progress-fill-chapter"></div>
+            </div>
+            </div>
+        </div>
+
+		<div class="divider">
+			<span class="divider-line"></span>
+			<span class="divider-flower">✦</span>
+			<span class="divider-flower">❀</span>
+			<span class="divider-flower">✦</span>
+			<span class="divider-line"></span>
+		</div>
+
+
+    	<div class="content-body">
+
+			<div class="intro-card">
+				✨ Bottom-up approach builds materials atom-by-atom or molecule-by-molecule from smaller units, while the top-down approach breaks down bulk materials into smaller structures through physical or chemical processes.
+			</div>
+
+            <div class="intro-card">
+                <p>Different approaches used in the synthesis of nanomaterials and nanodevices can help solid, liquid, and gaseous precursor materials.</p>
+                <p>Most of the techniques can be classified as <strong>bottom-up</strong> and <strong>top-down</strong> approaches and strategies that have elements of both.</p>
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number pink"></div>
+				<h2>Two Roads to the Nanoscale</h2>
+			</div>
+            <div class="callout def">
+				<span class="callout-icon">🌸</span>
+				<div>
+				<div class="callout-title">Bottom-up Approach</div>
+					<p>The <strong>bottom-up</strong> approach is to synthesize the nanomaterials from atomic or molecular species via chemical reactions or self-assembly, allowing for the precursor particles to grow in size and gradually assmbling the atomic or molecular precursors until desired structure is achieved.</p>
+                </div>
+			</div>  
+
+            <div class="callout def">
+				<span class="callout-icon">🌸</span>
+				<div>
+				<div class="callout-title">Top-down Approach</div>
+					<p>The <strong>top-down</strong> approach is to start with a bulk material and then break it into smaller pieces using mechanical, chemical, or any other form of energy.</p>
+                </div>
+			</div>
+            
+            <div class="section-head">
+				<div class="section-head-number pink"></div>
+				<h2>Aspects of Fabrication Routes</h2>
+			</div>
+            
+            <div class="intro-card">
+                <p>The most important aspect of any method lies in its ability to control the particle size, particle shape, size distribution, particle composition, and the degree of particle agglomeration.</p>    
+            </div>
+
+            <div class="table-wrap">
+                <table>
+                    <tr>
+                    <th>Aspect</th>
+                        <th>Bottom-Up Approach</th>
+                        <th>Top-Down Approach</th>
+                    </tr>
+
+                    <tr>
+                    <td><b>Basic approach</b></td>
+                        <td>Nanomaterials are built from atoms or molecules</td>
+                        <td>Bulk material is broken down to nanoscale</td>
+                    </tr>
+
+                    <tr>
+                    <td><b>Starting material</b></td>
+                        <td>Atoms, ions, molecules, or clusters</td>
+                        <td>Bulk solids</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Typical techniques</b></td>
+                        <td>
+                            Sol-gel<br>
+                            Chemical vapor deposition (CVD)<br>
+                            Atomic layer deposition (ALD)<br>
+                            Hydrothermal / solvothermal synthesis<br>
+                            Co-precipitation<br>
+                            Chemical reduction
+                        </td>
+                        <td>
+                            Mechanical / ball-milling<br>
+                            Lithography (photo, e-beam, nanoimprint)<br>
+                            Etching (wet &amp; dry)<br>
+                            Laser ablation<br>
+                            Sputtering<br>
+                            Arc discharge
+                        </td>
+                    </tr>
+
+                    <tr>
+                    <td><b>Size control</b></td>
+                        <td>Limited and less uniform</td>
+                        <td>Excellent and highly tunable</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Shape control</b></td>
+                        <td>Good control via chemistry and templates</td>
+                        <td>Difficult</td>
+                    </tr>
+
+                    <tr>
+                    <td><b>Defect density</b></td>
+                        <td>Lower</td>
+                        <td>Higher (surface damage possible)</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Scalability</b></td>
+                        <td>Highly scalable for powder synthesis</td>
+                        <td>Suitable for micro/nanofabrication</td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td><b>Cost</b></td>
+                        <td>Relatively low to moderate</td>
+                        <td>Generally high (equipment-intensive)</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Purity</b></td>
+                        <td>High chemical purity possible</td>
+                        <td>May contain defects/contamination</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Typical applications</b></td>
+                        <td>Catalysis, energy storage, sensors, biomedicine</td>
+                        <td>Nanoelectronics, patterning, MEMS</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number pink"></div>
+				<h2>Bottom-Up Approach</h2>
+			</div>
+            <div class="two-col">
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#cvd">Chemical Vapor Deposition</a></div>
+                    <p>Gaseous precursors react on a heated substrate surface to deposit thin films or nanostructured coatings.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#cvc">Chemical Vapor Condensation</a></div>
+                    <p>Vaporized precursors condense in a cool inert gas environment, forming ultrafine nanoparticles collected downstream.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#plasma-arcing">Plasma Arcing</a></div>
+                    <p>Electric arcs between electrodes vaporize metals in inert gas, producing nanoparticles upon rapid cooling and condensation.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#wet-chemical">Wet Chemical Methods</a></div>
+                    <p>Chemical reactions in solution reduce or precipitate precursors into controlled nanoparticles stabilized by capping agents.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="../module-1/solvothermal-method.html">Hydrothermal/Solvothermal</a></div>
+                    <p>Reactions in sealed autoclaves above solvent boiling point yield crystalline nanoparticles and MOFs with controlled morphology.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#reverse-micelle">Reverse Micelle Method</a></div>
+                    <p>Water-in-oil microemulsions form nanoscale reaction chambers that confine and control nanoparticle nucleation and growth.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="../module-1/solgel-method.html">Sol-Gel Method</a></div>
+                    <p>Hydrolysis and condensation of precursors form a colloidal sol that gels into ceramics, thin films, or glass at low temperatures.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#sonochemical">Sonochemical Method</a></div>
+                    <p>Ultrasonic waves create cavitation bubbles whose collapse generates intense local heat and pressure to drive nanoparticle formation.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#biomimetic">Biomimetic Approaches</a></div>
+                    <p>Biological molecules like proteins and DNA template or direct nanoparticle synthesis, mimicking natural mineralization processes.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#self-assembly">Molecular Self-Assembly</a></div>
+                    <p>Molecules spontaneously organize into ordered nanostructures driven by non-covalent interactions such as hydrogen bonding and van der Waals forces.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#lb-film">Langmuir-Blodgett Film Formation</a></div>
+                    <p>Amphiphilic molecules are compressed at an air-water interface and transferred layer-by-layer onto substrates as ultrathin films.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#stabilization">Stabilization and Functionalization</a></div>
+                    <p>Surface coatings and functional groups are added to nanoparticles to prevent aggregation and tailor their chemical behavior.</p>
+                </div>
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number pink"></div>
+				<h2>Top-Down Approach</h2>
+			</div>
+            <div class="two-col">
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#mechanical-milling">Mechanical Milling</a></div>
+                    <p>Bulk materials are ground into nanoparticles using high-energy ball mills through repeated fracturing and cold welding.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#mcp">Mechanochemical Processing</a></div>
+                    <p>Chemical reactions are driven by mechanical energy, enabling solid-state synthesis of nanostructured materials without solvents.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#electro-explosion">Electro-Explosion</a></div>
+                    <p>High-voltage electrical pulses vaporize metal wires, producing ultrafine nanoparticles through rapid condensation of the vapor.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#sputtering">Sputtering</a></div>
+                    <p>Ions bombard a target material, ejecting atoms that deposit as thin films or nanoparticles onto a substrate.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#etching">Etching</a></div>
+                    <p>Chemical or plasma-based removal of material from a surface to sculpt nanostructures with precise geometries.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#laser-ablation">Laser Ablation</a></div>
+                    <p>Pulsed laser beams vaporize target material in liquid or gas medium, generating nanoparticles through rapid condensation.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#lithography">Lithography</a></div>
+                    <p>Light or electron beams pattern nanoscale features onto substrates through selective exposure and etching of resist layers.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#aerosol">Aerosol-Based Techniques</a></div>
+                    <p>Nanoparticles are generated and collected from aerosol sprays or flames, enabling continuous production of fine powders.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card-title"><a href="#electrospinning">Electrospinning</a></div>
+                    <p>High electric fields draw polymer or ceramic solutions into ultrafine nanofibers deposited as mats on a collector.</p>
+                </div>
+            </div>
+
+            <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
+            <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>
+        </div>
+  	</main>
+
+  	<footer>
+		tended with love &amp; good tea &nbsp;✦&nbsp; Nano library
+	</footer>
 </body>
 </html>

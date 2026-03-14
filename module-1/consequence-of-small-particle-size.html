@@ -1,30 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-        window.MathJax = {
-            options: { enableMenu: false }
-        };
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/style.css"/>
+    <title>Consequence of Small Particle Size · Nanomaterial Synthesis · Nano Library</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="https://nano-library.github.io/web-styling/favicon.png">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+	<link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/colors.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/topic.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/navigation.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/progress.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/divider.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/card.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/list.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/formula.css">
 </head>
 <body>
-    <div id="navigation">
-        <nav class="concept-nav" aria-label="Concept navigation">
-            <a class="nav-btn prev" href="" rel="prev">\(\leftarrow\) </a>
-            <a class="nav-btn home" href="./index.html">Contents</a>
-            <a class="nav-btn next" href="" rel="next"> \(\rightarrow\)</a>
-        </nav>
-    </div>
-    <div id="title">
-        <h2>Content for this section will be updated soon</h2>
-        <hr>
-    </div>
-    <div id="chapter">
-    </div>
+    <a class="nav-button nav-prev">
+        <span class="button-icon"><</span>
+        <span class="button-label">prev</span>
+    </a>
+
+    <a class="nav-button nav-list">
+    <span class="button-label">contents</span>
+    </a>
+
+    <a class="nav-button nav-next">
+        <span class="button-icon">></span>
+        <span class="button-label">next</span>
+    </a>
+
+    <main data-topic="2" data-list="../index.html">
+
+         <div class="page-header">
+            <div class="topic-chip"></div>
+            <h1></h1>
+            <p class="page-meta"></p>
+            <div class="progress-bar-wrap">
+            <div class="progress-label">
+                <span class="topic-count">loading…</span>
+                <span class="pct-count"></span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="progress-label" style="margin-top:10px;">
+                <span class="chapter-count">loading…</span>
+                <span class="chapter-pct"></span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill progress-fill-chapter"></div>
+            </div>
+            </div>
+        </div>
+
+		<div class="divider">
+			<span class="divider-line"></span>
+			<span class="divider-flower">✦</span>
+			<span class="divider-flower">❀</span>
+			<span class="divider-flower">✦</span>
+			<span class="divider-line"></span>
+		</div>
+
+
+    	<div class="content-body">
+			<div class="intro-card">
+				✨ <strong> Consequence of small particle size</strong> refers to the structural and energetic changes that arise as particle dimensions shrink to the nanoscale, where surface atoms begin to outnumber bulk atoms, fundamentally altering reactivity, stability, and thermodynamic behavior.
+			</div>
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Quantum Confinement Effect</h2>
+            </div>
+
+            <div class="intro-card">
+                When the size of a material is reduced to the nanoscale (<mark>1-100 nm</mark>), its electrons become spatially confined. This <strong>quantum confinement</strong> causes the energy levels to become discrete rather than continuous, fundamentally changing the material's optical, electronic, and chemical properties.
+            </div>
+
+            <ul>
+                <li class="no-num">Quantum confinement occurs when nanoparticle size is comparable to the de Broglie wavelength of the electron.</li>
+            </ul>
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Band Gap & Energy Levels</h2>
+            </div>
+
+            <div class="callout note">
+				<span class="callout-icon">💠</span>
+				<div>
+				<div class="callout-title">Conduction & Valence Band</div>
+					As quantum dot size <strong>decreases</strong>, the band gap energy \(E_g\) <strong>increases</strong>.
+                    Electrons need more energy to jump from the valence band to the conduction band,
+                    causing a <mark>blue shift</mark> in the emitted wavelength.
+				</div>
+			</div>
+
+            <ul>
+                <li class="no-num">\(E_g\) is band gap energy between valence and conduction band.</li>
+                <li class="no-num">\(\lambda\) is emission wavelength.</li>
+            </ul>
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Size-Dependent Emission Colours</h2>
+            </div>
+
+            <div class="intro-card">
+                The emission colour of quantum dots shifts with size. Larger dots emit at longer wavelengths (red), while smaller dots emit at shorter wavelengths (blue).
+            </div>
+
+            <ul>
+                <li>Large dots have a low band gap energy, corresponding to long wavelengths that produce red emission (~700 nm).</li>
+                <li>Medium dots have a moderate band gap energy that produces green or yellow emission (~550 nm).</li>
+                <li>Small dots have a high band gap energy, corresponding to short wavelengths that produce blue emission (~400 nm).</li>
+            </ul>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Applications, exploiting tuneable emission</h2>
+			</div>
+
+            <ul>
+                <li class="no-num">Bioimaging</li>
+                <li class="no-num">LEDs</li>
+                <li class="no-num">Solar cells</li>
+                <li class="no-num">Sensors</li>
+            </ul>
+			
+            <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
+            <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>
+        </div>
+  	</main>
+
+  	<footer>
+		tended with love &amp; good tea &nbsp;✦&nbsp; Nano library
+	</footer>
 </body>
 </html>
